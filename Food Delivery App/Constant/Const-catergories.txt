@@ -1,0 +1,8 @@
+const categories = [
+    {id: '1', name: 'Coffee', image: require('../assets/cooo.jpg'), borderRadius: 30,},
+    {id: '2', name: 'Deserts', image: require('../assets/coco.jpg')},
+    {id: '3', name: 'IceCream', image: require('../assets/ice.jpg')},
+    {id: '4', name: 'Juice', image: require('../assets/juice.jpg')},
+  ];
+  
+  export default categories;

@@ -1,0 +1,32 @@
+const foods = [
+    {
+      id: '1',
+      name: 'Coffee',
+      ingredients: 'Coffee Beans',
+      price: '200',
+      image: require('../assets/cooo.jpg'),
+    },
+    {
+      id: '2',
+      name: 'Desserts',
+      ingredients: 'Browines&Cakes',
+      price: '700',
+      image: require('../assets/desserts.jpg'),
+    },
+    {
+      id: '3',
+      name: 'Ice Cream',
+      ingredients: 'All Flavours',
+      price: '200',
+      image: require('../assets/ice.jpg'),
+    },
+    {
+      id: '4',
+      name: 'Juice',
+      ingredients: 'Fresh Juice',
+      price: '100',
+      image: require('../assets/juice.jpg'),
+    },
+  ];
+  
+  export default foods;
